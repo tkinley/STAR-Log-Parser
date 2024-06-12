@@ -10,15 +10,20 @@ A Python script to extract mapping statistics from STAR alignment log files and 
 ## Usage
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/RNASeq-Mapping-Summary.git
-   cd RNASeq-Mapping-Summary
-   ```
+    ```bash
+    git clone https://github.com/yourusername/RNASeq-Mapping-Summary.git
+    cd RNASeq-Mapping-Summary
+    ```
 
-2. Place your STAR log files in the log_files directory.
+2. Place your STAR log files in the `log_files` directory.
 
 3. Run the script:
-   ```bash
-   python extract_mapping_info.py
-   ```
-4. The results will be saved in mapping_summary.csv
+    ```bash
+    python extract_mapping_info.py
+    ```
+
+4. The results will be saved in `mapping_summary.csv`.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
