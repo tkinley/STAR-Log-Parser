@@ -23,6 +23,11 @@ A Python script to extract mapping statistics from STAR alignment log files and 
     ```
 
 4. The results will be saved in `mapping_summary.csv`.
+```bash Output:
+Filename,Number of input reads,Uniquely mapped reads number,Uniquely mapped reads %
+ERR1942980_Log.final.out,45816589,29324651,64.00%
+ERR1942976_Log.final.out,40230927,25813120,64.16%
+```
 
 ### Note:
 This will create a CSV file named `mapping_summary.csv` in the same directory, containing the extracted information sorted by filenames in ascending order. If you need to sort in descending order, you can modify the sorted function call to include the `reverse=True` parameter:
