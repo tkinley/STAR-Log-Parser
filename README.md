@@ -25,7 +25,7 @@ A Python script to extract mapping statistics from STAR alignment log files and 
 4. The results will be saved in `mapping_summary.csv`.
 ```bash Output:
 Filename,Number of input reads,Uniquely mapped reads number,Uniquely mapped reads %
-ERR1942980_Log.final.out,45816589,29324651,64.00%
+ERR1942975_Log.final.out,40332686,25507486,63.24%
 ERR1942976_Log.final.out,40230927,25813120,64.16%
 ```
 
